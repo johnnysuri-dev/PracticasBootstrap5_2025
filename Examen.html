@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
+ 
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -90,28 +92,33 @@
                 </div>
             </div>
             <div class="row">
-            <table class="table table-hover">
-                <tr>
+            <table id="myTable" class="display">
+                <thead>
+                    <tr>
                     <th>id</th>
                     <th>nombre</th>
                     <th>apellido</th>
                     <th>curso</th>
                     <th>direccion</th>
                 </tr>
-                <tr>
-                    <td>1</td>
-                    <td>juan</td>
-                    <td>perez</td>
-                    <td>5to primaria</td>
-                    <td>calle la paz </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>julio</td>
-                    <td>perez</td>
-                    <td>5to primaria</td>
-                    <td>calle la paz </td>
-                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>juan</td>
+                        <td>perez</td>
+                        <td>5to primaria</td>
+                        <td>calle la paz </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>julio</td>
+                        <td>perez</td>
+                        <td>5to primaria</td>
+                        <td>calle la paz </td>
+                    </tr>
+                </tbody>
+                
             </table>
             </div>
             <div class="row">
@@ -159,5 +166,12 @@
             </div>
 </div>
 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
